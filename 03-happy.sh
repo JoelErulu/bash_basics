@@ -1,6 +1,10 @@
 #!/bin/sh
 
+<<<<<<< HEAD
 echo "Is today the weekend? (yes/no)"
+=======
+echo "Is today the not weekend? (yes/no)"
+>>>>>>> parallel
 read answer
 
 if [ "$answer" = "yes" ]; then
